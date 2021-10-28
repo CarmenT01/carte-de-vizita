@@ -1,32 +1,66 @@
 .profile-card {
-  height: 700px;
+  height: 600px;
   width:  500px;
-  background: silver;
-  text-align: center;
+  background-color: hsla(0, 0, 100%, .5);
+  border-radius: 2px;
   margin: 0 auto;
+  
+  
+  
+  text-align: center;
+  
+  
+  
 }
 .profile-image {
-  height: 20%;
+  height: 30%;
   width: 100%;
-  background-color: azure;
+  border-bottom: 1px solid black;
+  
 } 
 img {
   height: 100%;
   width: 55%;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+  
 }
 .content {
-  height: 80%;
+  height: 70%;
   width: 100%;
-  background-color: beige;
 }
-/*Resetare css*/
+body {
+  background: url('assets/poza-fundal.jfif') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
 
-* {
-  margin: o;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 100%;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
